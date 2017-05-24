@@ -44,6 +44,7 @@ body {
 	background-image: url(images/main.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 792px;
 }
 
@@ -95,7 +96,7 @@ h2{
 
 .icon_box{
 	float: left;
-	padding: 0 30px;
+	padding: 0 28px;
 }
 
 .icon_title{
