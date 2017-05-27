@@ -25,7 +25,7 @@ html,body {
 
 
 body {
-    font-family: “Noto sans”, “Nanum Gothic”, “나눔고딕”. Helvetica, sans-serif;
+    font-family: “Noto sans”, “Nanum Gothic”, “나눔고딕”, Helvetica, sans-serif;
     background-color: #f9f9f9;
 }
 
@@ -40,75 +40,81 @@ body {
 
 
 
-.main{
-	background-image: url(images/main.png);
+header{
+	background-image: url(images/main_img.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 792px;
+	height: 1270px;
 }
 
-.main_box{
-	display: inline-block;
-	margin: 330px 0 0 210px;
+.main{
+	width: 100%;
+	text-align: center;
+	padding: 400px 0 100px 0;
 }
 
 h1{
-	
 	font-size: 70px;
 	font-weight: 800;
-	color: #fff;
-	padding-bottom: 60px;
+	color: #333;
 }
 
 h1 span{
 	padding-top: 30px;
-	border-top: 8px solid #f64242;
+	border-top: 12px solid #06fff0;
 }
 
 .main_more{
 	padding: 15px 40px;
 	display: inline-block;
-	border: 1px solid #fff;
+	border: 1px solid #333;
 	font-size: 20px;
 	font-weight: 400;
-	color: #fff;
+	color: #333;
+	margin-top: 50px;
 }
 
 .main_more:hover{
-	background-color: rgba(0,0,0,0.3);
+	border: 1px solid #06fff0;
+	color: #06fff0;
 }
 
 
+.com1{
+	background-color: rgba(0,0,0,0.3);
+}
+.competence{
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	padding:90px 0 60px 0;
+}
 
 h2{
 	font-size: 50px;
 	font-weight: 800;
-	color: rgba(0,0,0,0.2);
-	margin: 90px 0 70px 0;
-}
-.competence{
-	width: 980px;
-	text-align: center;
-	margin: 0 auto;
-	padding-bottom: 60px;
+	color: #fff;
+	margin-bottom: 80px;
 }
 
 .icon_box{
 	float: left;
-	padding: 0 28px;
+	width: 300px;
 }
 
 .icon_title{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 800;
 	margin-top: 15px;
+	color: #fff;
 }
 
 .icon_txt{
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 1.4;
 	margin-top: 20px;
+	color: #fff;
 }
 
 
@@ -118,42 +124,42 @@ h2{
 	background-image: url(images/con1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 750px;
-	margin-top: 10px;
 }
 
 .content02{
 	background-image: url(images/con2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 750px;
-	margin-top: 10px;
+	
 }
 
 .content03{
 	background-image: url(images/con3.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 750px;
-	margin-top: 10px;
 }
 
 .content04{
 	background-image: url(images/con4.png);
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	height: 750px;
-	margin-top: 10px;
 }
 
 .content05{
 	background-image: url(images/con5.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 750px;
-	margin-top: 10px;
 }
-
 
 
 
@@ -218,7 +224,8 @@ h2{
 }
 
 .more:hover{
-	background-color: rgba(255,255,255,0.2);
+	background-color: #06fff0;
+	color: #333;
 }
 
 
@@ -231,7 +238,7 @@ footer{
 }
 
 .footer_box{
-	width: 390px;
+	width: 410px;
 	margin: 0 auto;
 	padding-top: 60px;
 	color: #fff;
@@ -241,25 +248,20 @@ h3{
 	font-size: 40px;
 }
 
-.address{
-	font-size: 16px;
-	text-align: left;
-	margin-top: 30px;
-}
 .email{
 	margin-top: 30px;
 }
 
 .e1{
 	float: left;
-	padding: 10px 59px;
+	padding: 10px 62px;
 	border: 1px solid #fff;
 	opacity: 0.6;
 }
 
 .e2{
 	float: left;
-	padding: 10px 33px;
+	padding: 10px 35px;
 	border: 1px solid #fff;
 	opacity: 0.6;
 	color: #fff;
