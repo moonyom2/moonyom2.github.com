@@ -45,7 +45,7 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 1270px;
+	height: 1000px;
 }
 
 .main{
@@ -80,42 +80,6 @@ h1 span{
 	color: #06fff0;
 }
 
-
-.com1{
-	background-color: rgba(0,0,0,0.3);
-}
-.competence{
-	width: 1200px;
-	text-align: center;
-	margin: 0 auto;
-	padding:90px 0 60px 0;
-}
-
-h2{
-	font-size: 50px;
-	font-weight: 800;
-	color: #fff;
-	margin-bottom: 80px;
-}
-
-.icon_box{
-	float: left;
-	width: 300px;
-}
-
-.icon_title{
-	font-size: 16px;
-	font-weight: 800;
-	margin-top: 15px;
-	color: #fff;
-}
-
-.icon_txt{
-	font-size: 12px;
-	line-height: 1.4;
-	margin-top: 20px;
-	color: #fff;
-}
 
 
 
@@ -217,10 +181,12 @@ h2{
 
 .more{
 	display: inline-block;
-	padding: 12px 55px;
+	width: 200px;
+	padding: 10px 0;
 	color: #fff;
 	background-color: #000;
 	margin-top: 30px;
+	text-align: center;
 }
 
 .more:hover{
@@ -276,3 +242,52 @@ h3{
 	margin-top: 30px;
 	opacity: 0.5;
 }
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+	.content01{
+		background-position: center center;
+	}
+	.content02{
+		background-position: center center;
+	}
+	.content03{
+		background-position: center center;
+	}
+	.content04{
+		background-position: center center;
+	}
+	.content05{
+		background-position: center center;
+	}
+	
+	
+	.content01 .con_text_box1{
+		padding: 210px 0;
+		text-align: center;
+	}
+	
+	.content01 .more_box{
+		margin-top: 30px;
+	}
+	.content01 .more{
+		display: block;
+		margin: 10px auto;
+	}
+	
+	.con_text_box1{
+		padding: 235px 0;
+		text-align: center;
+	}
+	
+	.con_text_box2{
+		padding: 245px 0;
+		text-align: center;
+		
+	}
