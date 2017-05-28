@@ -250,7 +250,7 @@ h3{
 
 
 
-@media (max-width:768px) {
+@media screen and (min-width : 321px) and (max-width:768px) {
 	.content01{
 		background-position: center center;
 	}
@@ -291,3 +291,4 @@ h3{
 		text-align: center;
 		
 	}
+}
